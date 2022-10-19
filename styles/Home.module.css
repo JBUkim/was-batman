@@ -1,0 +1,118 @@
+.container {
+  padding: 0 2rem;
+  }
+
+  .homeTitle {
+    font-size: 5rem;
+    color: red
+  }
+
+  .subfont {
+    font-size: 1.5rem;
+  }
+  
+  .subfont a:hover {
+    color: red;
+  }
+  
+  .main {
+    min-height: 100vh;
+    padding: 4rem 0;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: gainsboro;
+  }
+
+  .footer {
+    display: flex;
+    flex: 1;
+    padding: 2rem 0;
+    border-top: 1px solid #eaeaea;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+  }
+
+  .footer a:hover {
+    color: red;
+  }
+
+
+  /* about.js */
+
+  .about {
+    min-height: 100vh;
+    padding: 4rem 0;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: gainsboro;
+  }
+
+  .figcaption {
+    color: white;
+    background: rgba(55, 55, 55, 0.5);
+    padding: 1em;
+    line-height: 1;
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  .figure {
+    margin: 30px;
+    line-height: 0;
+    position: relative;
+    height: 50%;
+    width: 50%;
+  }
+
+  /* batman.js */
+
+  .tvmaze{
+    background: linear-gradient(to right top, #861657, #ffa69e);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .batman {
+    display: flex;
+    flex-direction: column;
+    background-color: gainsboro;
+  }
+
+  .batman li:hover {
+    color: red;
+  }
+
+  
+  
+  .batimg {
+    border-radius: 20%;
+    border: 4px solid black;
+    overflow: hidden;
+    margin-right: 3px;
+    margin: 3px;
+    
+  }
+
+  .batname {
+    font-size: 25px;
+  }
+  
